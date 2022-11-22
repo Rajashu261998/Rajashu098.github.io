@@ -1,0 +1,38 @@
+* {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+  /* position: relative; */
+  padding: 4%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(134, 134, 134);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(146, 146, 146);
+}
+
+* {
+  scrollbar-width: thin !important; /* Firefox */
+  -ms-overflow-style: thin !important; /* IE and Edge */
+}

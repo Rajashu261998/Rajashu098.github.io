@@ -108,7 +108,7 @@ const About = () => {
                     <FaGithub size={"28px"} />
                   </Link>
                   <Link
-                    href={"https://www.linkedin.com/in/ashu19981997/"}
+                    href={"https://www.linkedin.com/in/ashu1997/"}
                     isExternal
                     color={"linkedin.900"}
                     transitionDuration='0.5s'

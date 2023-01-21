@@ -7,7 +7,7 @@ const Graph = () => {
       <Image
         w={"xl"}
         // loading='lazy'
-        alt='Apurba Adhikary'
+        alt='Ashutosh Raj'
         src='https://activity-graph.herokuapp.com/graph?username=rajashu261998&bg_color=0D1117&color=79fe96&line=79fe96&point=FFFFFF&hide_border=true'
       />
     </Link>
